@@ -16,14 +16,15 @@
             android:id="@+id/todoTask"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingStart="16dp"
-            android:text="Item 1"
             android:fontFamily="@font/poppins_bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="84dp"
+            android:text="Item 1"
             android:textColor="@color/text_color"
             android:textSize="17sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/deleteBtn"
